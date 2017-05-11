@@ -1,4 +1,10 @@
 @import "base/_variables";
+
+//foundation
+@import "base/foundation-settings";
+@import "foundation";
+@include foundation-everything;
+//component
 @import "components/_navigation";
 @import "components/_clock";
 @import "components/_controls";
